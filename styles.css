@@ -111,7 +111,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    border-radius: 0.5rem;
+    border-radius: 0.3rem;
     
 }
 
@@ -121,7 +121,7 @@ body{
     margin-right: auto;
     display: block;
     margin-top: 1rem;
-    border-radius: 0.5rem;
+    border-radius: 0.3rem;
 }
 
 .styling-input{
@@ -129,7 +129,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    border-radius: 0.5rem;
+    border-radius: 0.3rem;
 
 }
 
@@ -175,7 +175,7 @@ form{
     margin-left: auto;
     margin-right: auto;
     margin-top: 1rem;
-    border-radius: 0.5em;
+    border-radius: 0.3em;
 }
 #output{
     font-size: x-large;
