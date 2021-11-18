@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navigation">
+        <div class="nav-brand">FUN WITH TRIANGLES</div>
+    <ul class="non-bullet nav-pills">
+        <li class="list-item-inline">
+            <a class="link " href="/">IsTriangle?</a>
+        </li>
+        <li class="list-item-inline">
+            <a  class="link link-active " href="quiz.html">Quiz</a>
+        </li>
+        <li class="list-item-inline">
+            <a class="link" href="hypotenuse.html">Hypotenuse</a>
+        </li>
+        <li class="list-item-inline">
+            <a class="link" href="area.html">Area</a>
+        </li>
+    </ul>
+    </nav>
+    <h1 class="triangle-quiz-heading">Triangle Quiz</h1>
+    <form class="quiz-form">
+        <div class="question-container">
+            <p>1.What is the third angle for the triangle where angle1 is 45* and angle2 is 45* ?</p>
+            <label> <input type="radio" name="question1" value="45*"/> 45* </label>
+            <label> <input type="radio" name="question1" value="60*"/> 60* </label>
+            <label> <input type="radio" name="question1" value="90*"/> 90* </label>
+        </div>
+        <div class="question-container">
+            <p>2.If a Triangle has an angle of 90* what it is called ?</p>
+            <label> <input type="radio" name="question2" value="Obtuse"/> Obtuse</label>
+            <label> <input type="radio" name="question2" value="Acute"/> Acute</label>
+            <label> <input type="radio" name="question2" value="Right Angled"/> Right Angled </label>
+        </div>
+        <div class="question-container">
+            <p>3.If a triangle has angles 25*, 75*, 80*. Is it an acute triangle?</p>
+            <label> <input type="radio" name="question3" value="Yes"/>Yes</label>
+            <label> <input type="radio" name="question3" value="No"/> No</label>
+            
+        </div>
+        <div class="question-container">
+            <p>4.If a triangle has 2 sides with equal lengths and 75* angle between them. What is the type of triangle?</p>
+            <label> <input type="radio" name="question4" value="Equilateral"/>Equilateral</label>
+            <label> <input type="radio" name="question4" value="Isoceles"/> Isoceles</label>
+            <label> <input type="radio" name="question4" value="Right Angled Triangle"/> Right Angled Triangle</label>
+            
+        </div>
+        <div class="question-container">
+            <p>5.If all the sides of a Triangle are equal then it is called?</p>
+            <label> <input type="radio" name="question5" value="Equilateral"/>Equilateral</label>
+            <label> <input type="radio" name="question5" value="Isoceles"/> Isoceles</label>
+            <label> <input type="radio" name="question5" value="Right Angled Triangle"/> Right Angled Triangle</label>
+            
+        </div>
+    </form>
+    <button id="submit-answer-btn">Submit Answers</button>
+    <div id="output"></div>
+    <script src="quiz.js"></script>
+
+    
+</body>
+</html>

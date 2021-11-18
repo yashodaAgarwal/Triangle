@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root{
+    --primary-color: #1b2d38
+    ;
+    --gray-color: #6B7280;
+    --off-white:#F3F4F6;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    
+}
+
+
+/* stlying the containers */
+
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-center{
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+/* styling lists */
+
+.non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0.1rem 0.2rem;
+}
+
+/* Styling navigation */
+
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.navigation .nav-pills{
+    text-align: center;
+}
+
+.navigation .nav-brand{
+    font-weight: bold;
+}
+
+.navigation .link-active{
+    font-weight: bold;
+}
+
+
+/* styling the header part */
+
+.hero{
+    padding: 2rem;
+}
+
+.hero .hero-img{
+    max-width: 350px;
+    margin: auto;
+    display: block;
+}
+
+.hero .hero-heading{
+    text-align: center;
+    padding-top: 1rem;
+    color: var(--gray-color);
+}
+.hero .hero-heading .heading-highlighted-text{
+    color: var(--primary-color);
+}
+
+
+/* styling section part */
+.section{
+    padding: 2rem;
+}
+.section h1{
+    text-align: center;
+}
+
+   
+/* styling is triangle */
+
+.is-triangle-heading{
+    text-align: center;
+}
+
+.label-inline{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 0.5rem;
+    
+}
+
+#is-triangle-btn{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+}
+
+.styling-input{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 0.5rem;
+
+}
+
+#output{
+    text-align: center;
+}
+
+/* styling hypotenuse */
+
+.hyp-heading{
+    text-align: center;
+}
+
+.calculate-hyp-btn{
+    margin-top: 1rem;
+}
+
+
+/* styling area page */
+
+.area-heading{
+    text-align: center;
+}
+
+.area-btn{
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+
+/* styling quiz page */
+
+form{
+    text-align: center;
+}
+.triangle-quiz-heading{
+    text-align: center;
+}
+
+#submit-answer-btn{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    border-radius: 0.5em;
+}
+#output{
+    font-size: x-large;
+    margin-top: 1rem;
+}
